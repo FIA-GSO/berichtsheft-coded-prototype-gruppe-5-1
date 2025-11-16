@@ -1,0 +1,46 @@
+body {
+    font-family: Open Sans, Arial, Geneva, Tahoma, sans-serif;
+}
+
+.calendar-head {
+    background-color: #e2e3e5 !important;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.calendar-head thead{
+    border-top: solid 2px #9f9f9f;
+}
+
+.footer {
+    background-color: #e2e3e5;
+}
+
+.table-body {
+    border: solid 2px #9f9f9f !important;
+}
+
+.empty-row {
+    height: 20px;
+    border-top: solid 2px #9f9f9f;
+    border-left: none;
+    border-right: none;
+}
+
+.active {
+    width:40px;
+    height:40px;
+    margin:-40px;
+    color: #45b0fd;
+    background-color: #d2ebfd;
+}
+
+.weekend {
+    color: #7b7b7b !important;
+}
+
+td a {
+    font-weight: bold;
+}
